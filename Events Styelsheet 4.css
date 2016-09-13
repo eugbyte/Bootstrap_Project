@@ -1,0 +1,188 @@
+/*The entire body*/
+
+/*Nav Bar*/
+.navbar.navbar-default {
+  background-color: #800000;
+}
+
+.navbar.navbar-default .navbar-brand {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar.navbar-default .nav.navbar-nav li a {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*Drop down menu*, to overide the default code */
+.navbar.navbar-default .dropdown-menu li {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #800000;
+}
+
+.navbar.navbar-default .dropdown-menu {
+  margin: 0;  /*irritating white "border" not going away */
+  padding: 0;
+}
+
+.navbar.navbar-default .dropdown {
+  background-color: #800000;
+}
+
+/*Adds a border*/
+/*
+.navbar.navbar-default .nav.navbar-nav li {
+  border-left: 2px solid white;
+}
+*/
+
+/* Change the link color on hover */
+.navbar.navbar-default .nav.navbar-nav li a:hover {
+    background-color: #e59a9a;
+}
+
+/*change the button color*/
+.navbar.navbar-default .navbar-toggle.collapsed {
+  color: white;
+  background-color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar.navbar-default {
+      text-align: left;
+    }
+  }
+
+/*body background*/
+body {
+  background-color: #e6e6e6;
+}
+
+/*sub navigation bar*/
+nav {
+ 	  display: block;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+
+nav a {
+  color: #800000;
+}
+
+nav a:hover {
+  color: black;
+}
+
+/*Font Sizes*/
+
+.container h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #800000;
+}
+
+.container h3 {
+  font-family: 'Raleway', sans-serif;;
+}
+
+.container p {
+  font-family: 'Rubik', sans-serif;
+  text-align: justify;
+}
+
+.container li {
+  font-family: 'Rubik', sans-serif;
+  text-align: justify;
+}
+
+/*Competition Section*/
+.jumbotron.competition {
+  margin: 10px 0 20px 0;
+  border: solid;
+  background-image: url("https://scontent-nrt1-1.xx.fbcdn.net/t31.0-8/12186315_914184038650577_8165843924340373971_o.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
+
+.jumbotron.competition h1 {
+  font-family: 'Merienda One', cursive;
+  color: #800000;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .jumbotron.competition h1 {
+    padding-top: 15%;
+  }
+}
+
+.container {
+  border: solid #800000;
+  border-radius: 51px;
+  margin-bottom: 32px;
+  background-color: white;
+}
+
+/*.container.competition .col-md-5 {
+  border: solid;
+}
+*/
+
+/*Applies to both container competition and container event: Halloween;*/
+.container .col-md-5 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.container .col-md-5 img {
+  border-radius: 48px;
+}
+
+#hr1 {
+  color: #800000;
+  border: dotted 1px;
+}
+
+.table.table-hover th {
+  color: #800000;
+}
+
+/*Event Section*/
+
+
+#hr2 {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin: 50px auto;
+  }
+
+
+.jumbotron.event {
+  margin: 20px 0 20px 0;
+  border: solid;
+  background-image: url("https://scontent-nrt1-1.xx.fbcdn.net/t31.0-8/12764753_977432765659037_6748007994038385235_o.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
+.jumbotron.event h1 {
+  font-family: 'Merienda One', cursive;
+  text-align: center;
+  color: white;
+  padding-top: 16%;
+  padding-bottom: 8%;
+}
+
