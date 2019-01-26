@@ -65,7 +65,7 @@ body {
 /*Main Title and Background Image*/
 
 .jumbotron.title {  
-	  background-image: url("https://raw.githubusercontent.com/eugbyte/eugbyte.io/gh-pages/GA-Assingment/SMU%20Blur%203.jpg");
+	  background-image: url("images/competition.jpg");
     background-size: cover;
     background-position: center;
     margin-top: -20px;
